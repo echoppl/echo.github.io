@@ -6,23 +6,23 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="马浩珍在 Github 上的个人博客">
-    <meta name="keyword" content>
+    <meta name="description" content="ydWebTeam 的团队博客">
+    <meta name="keyword" content="技术 团队 博客 合作 分享 踩坑">
     <meta name="theme-color" content="#600090">
     <meta name="msapplication-navbutton-color" content="#600090">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="#600090">
     <link rel="shortcut icon" href="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-person-128.png">
-    <link rel="alternate" type="application/atom+xml" title="Haojen" href="/atom.xml">
+    <link rel="alternate" type="application/atom+xml" title="ydWebTeam&#39;s blog" href="/atom.xml">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.css">
     <title>
         
-        Hello World｜Haojen&#39;s blog
+        Hello World｜ydWebTeam&#39;s blog
         
     </title>
 
-    <link rel="canonical" href="http://haojen.github.io/2019/06/13/hello-world/">
+    <link rel="canonical" href="http://echoppl.github.io/2019/06/13/hello-world/">
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -37,7 +37,7 @@
 <style>
 
     header.intro-header {
-        background-image: url('//o7bkkhiex.bkt.clouddn.com/lion-blur-bg.jpg')
+        background-image: url('https://ssl-pubpic.51yund.com/909134353.jpg')
     }
 </style>
 <!-- hack iOS CSS :active style -->
@@ -56,7 +56,7 @@
             </button>
             <a class="navbar-brand animated pulse" href="/">
                 <span class="brand-logo">
-                    Haojen
+                    ydWebTeam&#39;s blog
                 </span>
                 's Blog
             </a>
@@ -119,13 +119,13 @@
 <!--only post-->
 
 
-<img class="wechat-title-img" src>
+<img class="wechat-title-img" src="http://circle.51yund.com/uploadPic#博文默认的图片">
 
 
 <style>
     
     header.intro-header {
-        background-image: url('')
+        background-image: url('http://circle.51yund.com/uploadPic#博文默认的图片')
     }
 
     
@@ -139,7 +139,7 @@
                     <h1>Hello World</h1>
                     
                     <span class="meta">
-                         作者 Haojen Ma
+                         作者 ydWebTeam
                         <span>
                           日期 2019-06-13
                          </span>
@@ -241,6 +241,44 @@
 
 
 
+<!-- async load function -->
+<script>
+    function async(u, c) {
+        var d = document, t = 'script',
+                o = d.createElement(t),
+                s = d.getElementsByTagName(t)[0];
+        o.src = u;
+        if (c) {
+            o.addEventListener('load', function (e) {
+                c(null, e);
+            }, false);
+        }
+        s.parentNode.insertBefore(o, s);
+    }
+</script>
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script>
+    async("http://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js", function () {
+        anchors.options = {
+            visible: 'always',
+            placement: 'right',
+            icon: '#'
+        };
+        anchors.add().remove('.intro-header h1').remove('.subheading').remove('.sidebar-container h5');
+    })
+</script>
+<style>
+    /* place left on bigger screen */
+    @media all and (min-width: 800px) {
+        .anchorjs-link {
+            position: absolute;
+            left: -0.75em;
+            font-size: 1.1em;
+            margin-top: -0.1em;
+        }
+    }
+</style>
+
 
 
 
@@ -286,6 +324,15 @@
                 
 
                 
+                    <li>
+                        <a target="_blank" href="https://www.facebook.com/echo">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                
 
                 
                     <li>
@@ -299,10 +346,19 @@
                 
 
                 
+                    <li>
+                        <a target="_blank" href="https://www.linkedin.com/in/echo">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                
 
                 </ul>
                 <p class="copyright text-muted">
-                    Copyright &copy; Haojen 2019
+                    Copyright &copy; ydWebTeam&#39;s blog 2019
                     <br>
                     <span id="busuanzi_container_site_pv" style="font-size: 12px;">PV: <span id="busuanzi_value_site_pv"></span> Times</span>
                     <br>
@@ -339,7 +395,7 @@
 <script>
     // only load tagcloud.js in tag.html
     if($('#tag_cloud').length !== 0){
-        async("http://haojen.github.io/js/jquery.tagcloud.js",function(){
+        async("http://echoppl.github.io/js/jquery.tagcloud.js",function(){
             $.fn.tagcloud.defaults = {
                 //size: {start: 1, end: 1, unit: 'em'},
                 color: {start: '#bbbbee', end: '#0085a1'},
